@@ -1,0 +1,15 @@
+{
+  "name": "build-a-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vesi zoneva",
+  "license": "ISC",
+  "bin": {
+    "create-pt1": "./pt1_build.js",
+    "create-pt2": "./pt2_build.js"
+  }
+}

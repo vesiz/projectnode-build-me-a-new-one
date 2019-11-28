@@ -1,0 +1,28 @@
+[
+    {
+        "type" : "simple-web-project",
+        "files" : {
+            "_" : [
+                "index.html",
+                "script.js",
+                "style.css"
+            ]
+        }
+    },
+
+    {
+        "type" : "bootstrap-project",
+        "files" : {
+            "_" : [ "index.html" ],
+            "styles" : [
+                { "bootstrap" : "https://api.github.com/repos/twbs/bootstrap" },
+                "style.css"
+            ],
+            "scripts" : [
+                { "jquery" : "https://api.github.com/repos/jquery/jquery" },
+                "script.js"
+            ]
+        }
+    }
+]
+
